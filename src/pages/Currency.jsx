@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react'
-const tg = window.Telegram.WebApp
+import React from 'react'
+import Page from '../components/Page.jsx'
 
 
 export default function Currency() {
-    useEffect(() => {
-        tg.BackButton.show()
-      }, [])
+
   return (
-    <div className='content'>Список валют</div>
+    <Page text={'Список валют'}></Page>
   )
 }

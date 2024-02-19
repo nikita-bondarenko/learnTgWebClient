@@ -1,12 +1,8 @@
-import React, { useEffect } from 'react'
-const tg = window.Telegram.WebApp
+import React from 'react'
+import Page from '../components/Page.jsx'
 
 export default function Wallet() {
-
-  useEffect(() => {
-    tg.BackButton.show()
-  }, [])
   return (
-    <div className='content'>Список кошельков</div>
+    <Page text={'Список кошельков'}></Page>
   )
 }

@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import Main from "./pages/Main.jsx";
 import City from "./pages/City.jsx";
 import Wallet from "./pages/Wallet.jsx";

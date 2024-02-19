@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-const tg = window.Telegram.WebApp
 import { useNavigate } from "react-router-dom";
+const tg = window.Telegram.WebApp
 
 
 export default function Page({text}) {

@@ -27,7 +27,7 @@ export default function Main() {
         </div>
         <div className='display__block'>
           <div className='display__left'>
-            <div className='display__title'>Вы отдаёте</div>
+            <div className='display__title'>Вы получаете</div>
             <div className='display__text'>100</div>
           </div>
           <Link to={'/currency'} className='display__currency'>USDT</Link>

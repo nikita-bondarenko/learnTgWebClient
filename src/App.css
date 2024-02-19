@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .close {
@@ -51,7 +50,7 @@ body {
 .display {
   border-radius: 12px;
   background-color: var(--tg-theme-bg-color);
-
+margin-bottom: 50px;
 }
 
 .display__block {
